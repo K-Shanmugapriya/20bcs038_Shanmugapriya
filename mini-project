@@ -168,6 +168,9 @@ while ((subscription = mqtt.readSubscription(5000))) //Dont use this one until y
   delay(9000);
  // client.publish(WeatherData, icon)
 }
+
+//To send notification
+
 void MQTT_connect() 
 {
   int8_t ret;
